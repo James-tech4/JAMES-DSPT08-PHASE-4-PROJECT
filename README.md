@@ -7,6 +7,7 @@ In today's digital world, Twitter plays a key role in shaping public opinion and
 Traditional sentiment analysis focuses on entire texts rather than specific entities within them. This project bridges that gap by building a model that identifies sentiment at the entity level, providing more precise insights for businesses.
 
 #### 3. Objectives
+The aim of this project is to build a model that will be able to accurately classify tweets at the entity level into Positive, Negative, Neutral, or Irrelevant sentiments. This will help businesses and organizations to:
 * Improve brand and reputation management
 * Enhance customer engagement strategies
 * Enable data-driven decision-making
@@ -18,7 +19,7 @@ Traditional sentiment analysis focuses on entire texts rather than specific enti
 * Investors & analysts
   
 #### 5. Data & Preprocessing
-* Dataset sourced from Kaggle.
+* Dataset sourced from [Kaggle.](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
 * Preprocessing steps: text cleaning, stopword removal, lemmatization, tokenization, and label encoding.
   
 #### 6. Modeling & Evaluation
