@@ -7,6 +7,7 @@ In today's digital world, Twitter plays a key role in shaping public opinion and
 Traditional sentiment analysis focuses on entire texts rather than specific entities within them. This project bridges that gap by building a model that identifies sentiment at the entity level, providing more precise insights for businesses.
 
 #### 3. Objectives
+The aim of this project is to build a model that will be able to accurately classify tweets at the entity level into Positive, Negative, Neutral, or Irrelevant sentiments. This will help businesses and organizations to:
 * Improve brand and reputation management
 * Enhance customer engagement strategies
 * Enable data-driven decision-making
@@ -18,14 +19,27 @@ Traditional sentiment analysis focuses on entire texts rather than specific enti
 * Investors & analysts
   
 #### 5. Data & Preprocessing
-* Dataset sourced from Kaggle.
-* Preprocessing steps: text cleaning, stopword removal, lemmatization, tokenization, and label encoding.
+* Dataset sourced from [Kaggle.](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
+
+#### 6. Data Understanding
+Both the training and validation datasets had column names that did not make sense. The column names were renamed as below:
+1. ID
+2. Topic
+3. Sentiment
+4. Tweet
+* The training dataset had 74681 rows and 4 columns while the validation dataset had 999 rows and 4 columns
+* The training dataset had 686 missing values in the tweet column while the validation dataset had no missing values
+* Both datasets had one column with integer data type and 3 columns with categorical data type
+
+#### 7. Data Preprocessing
+Preprocessing steps: text cleaning, stopword removal, lemmatization, tokenization, and label encoding.
   
 #### 6. Modeling & Evaluation
 Built two models:
-* Logistic Regression (Baseline)
+* Logistic Regression Model (Baseline)
 * Random Forest Classifier
-Evaluated models based on accuracy, selecting the best performer for sentiment classification.
+Models Evaluated models based on accuracy score
 
 #### 7. Findings & Conclusion
+* The Logistic regression moidel had an accuracy score of 90%
 The model with the highest accuracy ensures reliable entity-level sentiment classification, enabling businesses to monitor sentiment trends, improve customer experience, and strengthen brand perception.
