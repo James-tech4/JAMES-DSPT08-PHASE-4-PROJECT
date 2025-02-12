@@ -5,19 +5,20 @@
 * Project: End of Phase Project
 * Technical Mentor: Daniel Ekale
 
-* Table of Contents
+#### Table of Contents
 1. Project Overview
-Business Problem
-Business Objectives
-Target Audience
-Data
-Data Understanding
-Data Preprocessing
-Modelling & Evaluation
-Recommendation System Utilisation
-Findings
-Conclusion
-Future Optimizations
+2. Problem Statement
+3. Business Objectives
+4. Target Audience
+5. Data
+6. Data Understanding
+7. Exploratory Data Analysis
+8. Data Preprocessing
+9. Modelling & Evaluation
+10. Validating the Model
+11. Findings
+12. Conclusion
+
 
 #### 1. Project Overview
 In today's digital world, twitter plays a key role in shaping public opinion and brand perception. This project develops an entity-level sentiment analysis model to classify tweets as Positive, Negative, Neutral, or Irrelevant regarding a specific entity (e.g., brands, products, public figures). The goal is to help businesses extract actionable insights, track sentiment trends, and enhance decision-making.
@@ -25,7 +26,7 @@ In today's digital world, twitter plays a key role in shaping public opinion and
 #### 2. Problem Statement
 Traditional sentiment analysis focuses on entire texts rather than specific entities within them. This project bridges that gap by building a model that identifies sentiment at the entity level, providing more precise insights for businesses.
 
-#### 3. Objectives
+#### 3. Business Objectives
 The aim of this project is to build a model that will be able to accurately classify tweets at the entity level into Positive, Negative, Neutral, or Irrelevant sentiments. This will help businesses and organizations to:
 * Improve brand and reputation management
 * Enhance customer engagement strategies
@@ -70,8 +71,9 @@ Built two models:
 #### 10. Validating the Model
 The best model was validated using validation data 
 
-#### 11. Findings & Conclusion
+#### 11. Findings
 * Logistic regression model had an accuracy score of 76%
 * Tuned Random Forest Model had an accuracy score of 89.6%
-  
-The tuned Random Forest Model was therefore considered the best for this sentiment analysis project due to the high accuracy score. It generalized well to the validation dataset. 
+
+ #### 12. Conclusion
+The tuned Random Forest Model was therefore considered the best for this sentiment analysis project due to the high accuracy score of 89.6. It generalized well to the validation dataset. 
