@@ -18,38 +18,45 @@ The aim of this project is to build a model that will be able to accurately clas
 * Enable data-driven decision-making
   
 #### 4. Target Audience
+The target audience for this project are:
 * Businesses & brands
 * Marketing & PR teams
 * Customer support teams
 * Investors & analysts
   
-#### 5. Data & Preprocessing
+#### 5. Data
 * Dataset sourced from [Kaggle.](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
 
 #### 6. Data Understanding
 Both the training and validation datasets had column names that did not make sense. The column names were renamed as below:
-1. ID
-2. Entity
-3. Sentiment
-4. Tweet
+1. ID-A unique identifier for each tweet.
+2. Entity-The topic being discussed in the tweet.
+3. Sentiment-The emotion assigned to the tweet
+4. Tweet - The actual text of the tweet
 * The training dataset had 74681 rows and 4 columns while the validation dataset had 999 rows and 4 columns
 * The training dataset had 686 missing values in the tweet column while the validation dataset had no missing values
 * Both datasets had one column with integer data type and 3 columns with categorical data type
 
-#### 7. Data Preprocessing
-Preprocessing steps: text cleaning, stopword removal, lemmatization, tokenization, and label encoding.
+#### 7. Exploratory Data Analysis
+Some visualizations were done on the training data to get some deeper insights on it's distribution.
+
+#### 8. Data Preprocessing
+Preprocessing steps applied are:
+* Stopword removal
+* Lemmatization
+* Tokenization
+* Label encoding.
   
-#### 6. Modeling & Evaluation
+#### 9. Modeling & Evaluation
 Built two models:
 * Logistic Regression Model (Baseline)
 * Random Forest Classifier
-* Models Evaluated models based on accuracy score
+* Models were Evaluated models based on accuracy score
 
-
-#### 7. Validating the Model
+#### 10. Validating the Model
 The best model was validated using validation data 
 
-#### 7. Findings & Conclusion
+#### 11. Findings & Conclusion
 * Logistic regression model had an accuracy score of 76%
 * Tuned Random Forest Model had an accuracy score of 89.6%
   
