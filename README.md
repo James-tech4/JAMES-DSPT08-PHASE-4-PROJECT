@@ -5,6 +5,20 @@
 * Project: End of Phase Project
 * Technical Mentor: Daniel Ekale
 
+* Table of Contents
+1. Project Overview
+Business Problem
+Business Objectives
+Target Audience
+Data
+Data Understanding
+Data Preprocessing
+Modelling & Evaluation
+Recommendation System Utilisation
+Findings
+Conclusion
+Future Optimizations
+
 #### 1. Project Overview
 In today's digital world, twitter plays a key role in shaping public opinion and brand perception. This project develops an entity-level sentiment analysis model to classify tweets as Positive, Negative, Neutral, or Irrelevant regarding a specific entity (e.g., brands, products, public figures). The goal is to help businesses extract actionable insights, track sentiment trends, and enhance decision-making.
 
