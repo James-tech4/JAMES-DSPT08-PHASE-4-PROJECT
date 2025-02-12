@@ -1,5 +1,7 @@
 ## BUILDING AN NLP MODEL FOR ENTITY-LEVEL SENTIMENT ANALYSIS ON TWITTER
 
+![image](https://github.com/James-tech4/JAMES-DSPT08-PHASE-4-PROJECT/blob/main/images/Readme.jpeg)
+
 * Student Name: JAMES WACHIRA MUTHEE
 * Mode of Study: PART TIME
 * Project: End of Phase Project
